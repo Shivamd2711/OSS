@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".close").click(function () {
+                $(this).parent().slideToggle(400);
+            });
+
+        });
+
+    </script>
+    <style>
+        div {
+            width: 100%;
+            padding: 20px;
+            border: solid;
+            outline: auto;
+            font-size: 20px;
+            background-color: #eee;
+            color: #444;
+        }
+        button{
+            text-align:right;
+            background-color:green;
+            border:medium;
+            border-radius:30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Sample Heading</h1><button class="close">X</button>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div>
+        <h1>Sample Heading</h1><button class="close">X</button>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div>
+        <h1>Sample Heading</h1><button class="close">X</button>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div>
+        <h1>Sample Heading</h1><button class="close">X</button>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+
+</body>
+</html>
